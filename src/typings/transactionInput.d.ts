@@ -1,0 +1,1 @@
+export type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>
